@@ -1,0 +1,39 @@
+.wrapper{
+    margin-bottom: 3rem;
+    display: flex;
+}
+.active{
+    color: white;
+    background: linear-gradient(35deg,#494949,#313131);
+}
+.detcon{
+    margin: 0;
+    /* border: 2px solid black; */
+}
+.h2{
+    margin: 0;
+    margin-bottom: 2rem;
+}
+button{
+    padding: 1rem 1.4rem;
+    color: #313131;
+    background: white;
+    margin-right: 2rem;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.btns{
+    display: flex;
+    align-items: center;
+}
+.info{
+    width: 100%;
+    margin-left: 15px;
+}
+.imgwrap{
+    border-radius: 1rem;
+    width: 450px;
+    height: 300px;
+    object-fit: cover;
+}

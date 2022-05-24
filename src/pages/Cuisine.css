@@ -1,0 +1,28 @@
+body{
+    margin-bottom: 2rem;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
+    grid-gap: 3rem;
+}
+.cusconn{
+    width: 260px;
+    height: 220px;
+}
+.cusimg{
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+}
+.custitle{
+    text-align: center;
+    margin: 0;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: black;
+} 
+.linkconn{
+    text-decoration: none;
+    color: black;
+}
